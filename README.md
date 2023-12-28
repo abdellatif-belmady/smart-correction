@@ -1,1 +1,1 @@
-# smart-correction
+🚀 Bienvenue sur Smart Correction ! Notre plateforme d'Intelligence Artificielle redéfinit l'apprentissage en offrant des corrections intelligentes et précises pour les examens, devoirs et travaux en Arabe et en Français. 📚✨ Optimisez vos performances scolaires avec notre technologie avancée. Rejoignez-nous pour transformer vos erreurs en opportunités d'apprentissage et exceller dans vos études. 

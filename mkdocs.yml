@@ -1,0 +1,134 @@
+site_name: Smart Correction
+site_description: >-
+   Smart Correction la plate-forme intelligente de correction pour les élèves et les étudiants Marocains (en Arabe et en Français)!
+docs_dir: web/
+
+# Configuration
+theme:
+    language: fr
+    font: false
+    name: material
+    logo: 'logo.png'
+    favicon: 'logo.png'
+    palette:
+      - scheme: default
+        primary: blue
+        media: "(prefers-color-scheme: light)"
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+        accent: 'pink'
+      - scheme: slate
+        media: "(prefers-color-scheme: dark)"
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+        primary: black
+        accent: 'blue'
+
+    features:
+        - navigation.instant
+        - content.action.edit
+        - content.code.copy
+        - content.code.select
+        # - announce.dismiss
+        - content.code.annotate
+        # - content.tabs.link
+        - content.tooltips
+        # - header.autohide
+        # - navigation.expand
+        - navigation.indexes
+        - navigation.tracking
+        # - search.highlight
+        # - search.share
+        # - search.suggest
+        - toc.follow
+        # - navigation.expand
+        - navigation.footer
+        # - toc.integrate
+        - navigation.path
+        - navigation.indexes
+        - content.code.select
+
+    # custom_dir: overrides
+
+# extra_css:
+#     - 'stylesheets/extra.css'
+#     - 'stylesheets/fonts.css'
+#     - 'stylesheets/home/extra.css'
+#     - 'stylesheets/home/about.css'
+
+# Customization
+extra:
+  analytics:
+    provider: google
+    property: G-4GPL6MXYQ3
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our Comments section below.
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/abdellatif-belmady/smart-correction
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/smart-correction/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/smart.correction.2023/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@SmartCorrection-km4wf
+    # - icon: fontawesome/brands/instagram
+    #   link: https://www.instagram.com/abdellatifbelmady/
+    # - icon: fontawesome/brands/x-twitter
+    #   link: https://twitter.com/AbdellatifBELM
+
+# Repository
+repo_url: https://github.com/abdellatif-belmady/smart-correction
+edit_uri: edit/source/web/
+
+# Copyright
+copyright: Copyright &copy; 2024 Smart Correction
+
+
+# Extensions
+markdown_extensions:
+    - meta
+    - attr_list
+    - codehilite
+    - sane_lists
+    - admonition
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+    - md_in_html
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+# Page tree
+nav:
+  - index.md
