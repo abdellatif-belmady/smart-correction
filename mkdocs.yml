@@ -49,13 +49,13 @@ theme:
         - navigation.indexes
         - content.code.select
 
-    # custom_dir: overrides
+    custom_dir: overrides
 
-# extra_css:
-#     - 'stylesheets/extra.css'
-#     - 'stylesheets/fonts.css'
-#     - 'stylesheets/home/extra.css'
-#     - 'stylesheets/home/about.css'
+extra_css:
+    - 'stylesheets/extra.css'
+    - 'stylesheets/fonts.css'
+    - 'stylesheets/home/extra.css'
+    - 'stylesheets/home/about.css'
 
 # Customization
 extra:
